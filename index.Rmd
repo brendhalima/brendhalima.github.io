@@ -1,0 +1,41 @@
+---
+title: "Brendha Lima"
+output: html_document
+---
+
+<style type="text/css">
+.title {
+  display: none;
+}
+
+#getting-started img {
+  margin-right: 10px;
+}
+
+</style>
+
+<div class="row" style="padding-top: 30px;">
+<div class="col-sm-6">
+
+# **Hello, I'm Brendha!**
+
+I'm a statistician graduated from the Federal University of Paraná [(UFPR)](<http://www.ufpr.br/portalufpr/>), Brazil. I love spending time looking at and analyzing data. My passion for learning and my curiosity led me to discover that through data analysis it is possible to see patterns that we never imagined could exist. This is a useful way to improve processes, solve problems and, consequently, help people.
+
+I'm interested in programming, more specifically in R and Python languages ​​that can help me see and understand the world with the help of statistical techniques and other subjects such as artificial intelligence and data science.
+
+Check out my projects on this site or on my [github](<http://github.com/brendhalima>). You can contact me at brendharlima@gmail.com.
+
+## Timeline
+
+- 2006:2012 - Student in Graciosa High School
+
+- 2014:2021 - Graduated in Statistician from the Federal University of Paraná (UFPR)
+
+- 2020:2021 - Certified on Data Science from Harve School of Innovation
+
+
+</div>
+<div class="col-sm-6">
+
+
+![](images/brendha.png)

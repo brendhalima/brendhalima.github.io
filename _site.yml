@@ -1,0 +1,21 @@
+name: "my-website"
+navbar:
+  title: "Brendha Lima"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Topics"
+      href: Topics.html
+    - text: "Activies"
+      href: Activies.html
+    - text: "Curriculum"
+      href: Curriculum.html
+    - text: "About"
+      href: about.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css
