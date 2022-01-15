@@ -1,9 +1,9 @@
 ---
-title: "Contacts & Social Media"
+title: "Contacts"
 ---
 
 
-- Curitiba, Paraná, Brazil
+- Paraná, Brazil
 - [Facebook](https://www.facebook.com/in/brendha.lima)
 - [Gmail](brendharlima@gmail.com)
 - [GitHub](https://www.github.com/brendhalima)
