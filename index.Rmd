@@ -23,19 +23,22 @@ I'm a statistician graduated from the Federal University of Paraná [(UFPR)](<ht
 
 I'm interested in programming, more specifically in R and Python languages that can help me see and understand the world with the help of statistical techniques and other subjects such as artificial intelligence and data science.
 
-Check out my projects on this site or on my [github](<http://github.com/brendhalima>). You can contact me at brendharlima@gmail.com.
+Check out my projects on this site or on my [github](<http://github.com/brendhalima>). You can contact me at brendharlima@gmail.com or other way in about.
 
 ## Timeline
 
-- 2006:2012 - Student in Graciosa High School
-
 - 2014:2021 - Graduated in Statistician from the Federal University of Paraná (UFPR)
 
-- 2020:2021 - Certified on Data Science from Harve School of Innovation
+- 2020:2021 - Certified in Data Science from Harve School of Innovation
 
-## Hobbies
+## Hobbies & Interests
 
-Music, cycling, puzzle, sudoku.
+- Data Manipulation and Visualization
+- Business
+- Music
+- Cycling
+- Puzzle & Sudoku
+
 
 </div>
 <div class="col-sm-6">

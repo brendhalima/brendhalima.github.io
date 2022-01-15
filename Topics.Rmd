@@ -10,41 +10,79 @@ output:
     #code_folding: hide
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
-```
+
+# Graduação 
+
+Estatística - Universidade Federal do Paraná
+
+## 1º Ano
+
+- Fundamentos Básicos para Estatística
+- Estatística Descritiva e Inferencial Básica
+- Cálculo I
+- Geometria Analítica
+- Seminários
+- Estatística Computacional I
+- Fundamentos da Programação
 
 
-# Graduation
 
-## First Year
+## 2º Ano
+
+- Cálculo II
+- Álgebra Linear
+- Probabilidades A
+- Métodos Numéricos
+- Estatística Inferencial
+- Métodos de Amostragem
+- Probabilidades B
+- Pesquisa Operacional I
+
+## 3º Ano
+
+- Análise de Regressão Linear
+- Planejamentos de Experimentos I
+- Controle Estatístico de Qualidade
+- Processos Estocásticos Aplicados
+- Estatística Não Paramétrica 
+- Análise de Dados Categóricos 
+- Controle de Processos Industriais 
+- Estatística Compuatacional II
+- Modelos Lineares Generalizados 
+
+
+## 4º Ano
+
+- Teoria do Risco
+- Análise de Sobrevivência 
+- Modelos Estatísticos Multivariados 
+- Métodos de Pesquisa
+- Análise de Dados Longitudinais 
+- Análise de Séries Temporais
+- Extensão de Modelos de Regressão
+- Laboratório A (Análise de Componentes Principais e Dados Categóricos)
+
+## 5º Ano
+
+- Laboratório B (Análise de Componentes Principais e Dados Categóricos)
+
+# Curso Data Science 
+
+Outubro/20 a Março/21
+
+- Fundamento de dados
+- KPIs e Business Questions
+- Testes de Hipóteses e Testes AB
+- Introdução ao Python
+- Python para Ciência de Dados
+- SQL
+- ETL e Tratamento de Dados
+- Orientação a objetos em Python
+- Análise de Regressão
+- R
+- Visualização de Dados 
+- Big Data
+- IA e Machine Learning
+
 
 2018 | 7 | 23 Last compiled: `r Sys.Date()`
-
-Notice that whatever you define as a top level header, automatically gets put into the table of contents bar on the left. 
-
-## Second Year 
-
-You can add more headers by adding more hashtags. These won't be put into the table of contents
-
-## Third Year
-
-Here's an even lower level header
-
-
-## Forth Year
-
-Here's an even lower level header
-
-
-## Fifth Year
-
-Here's an even lower level header
-
-# Data Science Course
-
-2018 | 7 | 23 Last compiled: `r Sys.Date()`
-
-I'm writing this tutorial going from the top down. And, this is how it will be printed. So, notice the second post is second in the list. If you want your most recent post to be at the top, then make a new post starting at the top. If you want the oldest first, do, then keep adding to the bottom
-
-
