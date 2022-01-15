@@ -21,7 +21,7 @@ output: html_document
 
 I'm a statistician graduated from the Federal University of Paraná [(UFPR)](<http://www.ufpr.br/portalufpr/>), Brazil. I love spending time looking at and analyzing data. My passion for learning and my curiosity led me to discover that through data analysis it is possible to see patterns that we never imagined could exist. This is a useful way to improve processes, solve problems and, consequently, help people.
 
-I'm interested in programming, more specifically in R and Python languages ​​that can help me see and understand the world with the help of statistical techniques and other subjects such as artificial intelligence and data science.
+I'm interested in programming, more specifically in R and Python languages that can help me see and understand the world with the help of statistical techniques and other subjects such as artificial intelligence and data science.
 
 Check out my projects on this site or on my [github](<http://github.com/brendhalima>). You can contact me at brendharlima@gmail.com.
 
@@ -33,6 +33,9 @@ Check out my projects on this site or on my [github](<http://github.com/brendhal
 
 - 2020:2021 - Certified on Data Science from Harve School of Innovation
 
+## Hobbies
+
+Music, cycling, puzzle, sudoku.
 
 </div>
 <div class="col-sm-6">
