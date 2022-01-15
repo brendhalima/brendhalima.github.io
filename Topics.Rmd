@@ -84,5 +84,3 @@ Outubro/20 a Março/21
 - Big Data
 - IA e Machine Learning
 
-
-2018 | 7 | 23 Last compiled: `r Sys.Date()`
