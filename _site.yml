@@ -4,6 +4,7 @@ navbar:
   title: "Brendha Lima"
   left:
     - text: "Home"
+      icon: fa-home
       href: index.html
     - text: "Topics"
       href: Topics.html
@@ -11,7 +12,23 @@ navbar:
       href: Activies.html
     - text: "Curriculum"
       href: Curriculum.html
-    - text: "About"
+    - text: "Graduação"
+#      icon: fa-gear
+#      href: Topics.html
+      menu:
+        - text: "1º Ano"
+        - text: "Estatística Computacional I"
+          href: page-a.html
+        - text: "Fundamentos da Programação"
+          href: page-b.html
+        - text: "---------"
+        - text: "2º Ano"
+        - text: "Page C"
+          href: page-c.html
+        - text: "Page D"
+          href: page-d.html
+  right:
+    - icon: glyphicon-paperclip
       href: about.html
 output:
   html_document:
