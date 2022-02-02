@@ -13,14 +13,10 @@ navbar:
     - text: "Curriculum"
       href: Curriculum.html
     - text: "Inventary"
-#      icon: fa-gear
-#      href: Topics.html
       menu:
         - text: "1º Year"
         - text: "Fundamentos Básicos para Estatística"
           href: page-a.html
-        - text: "Estatística Descritiva e Inferencial Básica"
-          href: page-b.html
         - text: "Estatística Descritiva e Inferencial Básica"
           href: page-b.html
         - text: "Cálculo I"
