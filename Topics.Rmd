@@ -47,7 +47,7 @@ Estatística - Universidade Federal do Paraná
 - Estatística Não Paramétrica 
 - Análise de Dados Categóricos 
 - Controle de Processos Industriais 
-- Estatística Compuatacional II
+- Estatística Computacional II
 - Modelos Lineares Generalizados 
 
 

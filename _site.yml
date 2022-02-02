@@ -17,21 +17,72 @@ navbar:
 #      href: Topics.html
       menu:
         - text: "1º Year"
-        - text: "Estatística Computacional I"
+        - text: "Fundamentos Básicos para Estatística"
           href: page-a.html
+        - text: "Estatística Descritiva e Inferencial Básica"
+          href: page-b.html
+        - text: "Estatística Descritiva e Inferencial Básica"
+          href: page-b.html
+        - text: "Cálculo I"
+          href: page-b.html
+        - text: "Geometria Analítica"
+          href: page-b.html
+        - text: "Seminários"
+          href: page-b.html
+        - text: "Estatística Computacional I"
+          href: page-b.html
         - text: "Fundamentos da Programação"
           href: page-b.html
         - text: "---------"
         - text: "2º Year"
-        - text: "Page C"
+        - text: "Cálculo II"
           href: page-c.html
-        - text: "Page D"
+        - text: "Álgebra Linear"
           href: page-d.html
+        - text: "Probabilidades A"
+          href: page-c.html
+        - text: "Métodos Numéricos"
+          href: page-d.html
+        - text: "Estatística Inferencial"
+          href: page-c.html
+        - text: "Métodos de Amostragem"
+          href: page-d.html
+        - text: "Probabilidades B"
+          href: probB.html
         - text: "---------"
         - text: "3º Year"
-        - text: "Page C"
+        - text: "Análise de Regressão Linear"
           href: page-c.html
-        - text: "Page D"
+        - text: "Planejamentos de Experimentos I"
+          href: page-d.html
+        - text: "Controle Estatístico de Qualidade"
+          href: page-c.html
+        - text: "Processos Estocásticos Aplicados"
+          href: page-d.html
+        - text: "Estatística Não Paramétrica"
+          href: page-c.html
+        - text: "Análise de Dados Categóricos"
+          href: page-d.html
+        - text: "Controle de Processos Industriais"
+        - text: "Estatística Computacional II"
+        - text: "Modelos Lineares Generalizados"
+        - text: "---------"
+        - text: "4º Year"
+        - text: "Teoria do Risco"
+          href: page-c.html
+        - text: "Análise de Sobrevivência"
+          href: page-d.html
+        - text: "Modelos Estatísticos Multivariados"
+        - text: "Métodos de Pesquisa"
+        - text: "Análise de Dados Longitudinais"
+        - text: "Análise de Séries Temporais"
+        - text: "Extensão de Modelos de Regressão"
+        - text: "Lab A (Análise de Componentes Principais e Dados Categóricos)"
+        - text: "---------"
+        - text: "5º Year"
+        - text: "Lab B (Análise de Componentes Principais e Dados Categóricos)"
+          href: page-c.html
+        - text: "Data Science"
           href: page-d.html
   right:
     - icon: glyphicon-paperclip
