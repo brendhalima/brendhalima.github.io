@@ -12,7 +12,7 @@ navbar:
       href: Activies.html
     - text: "Curriculum"
       href: Curriculum.html
-    - text: "Graduação"
+    - text: "Inventary"
 #      icon: fa-gear
 #      href: Topics.html
       menu:
