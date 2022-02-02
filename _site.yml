@@ -16,13 +16,19 @@ navbar:
 #      icon: fa-gear
 #      href: Topics.html
       menu:
-        - text: "1º Ano"
+        - text: "1º Year"
         - text: "Estatística Computacional I"
           href: page-a.html
         - text: "Fundamentos da Programação"
           href: page-b.html
         - text: "---------"
-        - text: "2º Ano"
+        - text: "2º Year"
+        - text: "Page C"
+          href: page-c.html
+        - text: "Page D"
+          href: page-d.html
+        - text: "---------"
+        - text: "3º Year"
         - text: "Page C"
           href: page-c.html
         - text: "Page D"
