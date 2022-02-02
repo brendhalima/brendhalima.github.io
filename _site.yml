@@ -14,38 +14,6 @@ navbar:
       href: Curriculum.html
     - text: "Inventary"
       menu:
-        - text: "1º Year"
-        - text: "Fundamentos Básicos para Estatística"
-          href: page-a.html
-        - text: "Estatística Descritiva e Inferencial Básica"
-          href: page-b.html
-        - text: "Cálculo I"
-          href: page-b.html
-        - text: "Geometria Analítica"
-          href: page-b.html
-        - text: "Seminários"
-          href: page-b.html
-        - text: "Estatística Computacional I"
-          href: page-b.html
-        - text: "Fundamentos da Programação"
-          href: page-b.html
-        - text: "---------"
-        - text: "2º Year"
-        - text: "Cálculo II"
-          href: page-c.html
-        - text: "Álgebra Linear"
-          href: page-d.html
-        - text: "Probabilidades A"
-          href: page-c.html
-        - text: "Métodos Numéricos"
-          href: page-d.html
-        - text: "Estatística Inferencial"
-          href: page-c.html
-        - text: "Métodos de Amostragem"
-          href: page-d.html
-        - text: "Probabilidades B"
-          href: probB.html
-        - text: "---------"
         - text: "3º Year"
         - text: "Análise de Regressão Linear"
           href: page-c.html
@@ -77,7 +45,9 @@ navbar:
         - text: "---------"
         - text: "5º Year"
         - text: "Lab B (Análise de Componentes Principais e Dados Categóricos)"
-          href: page-c.html
+          href: page-c.html7        
+        - text: "Optativas"
+          href: page-d.html
         - text: "Data Science"
           href: page-d.html
   right:
