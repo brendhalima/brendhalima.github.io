@@ -29,8 +29,6 @@ navbar:
           href: https://github.com/brendhalima/glm.git
         - text: "---------"
         - text: "4º Year"
-        - text: "Teoria do Risco"
-          href: page-c.html
         - text: "Análise de Sobrevivência"
           href: page-d.html
         - text: "Modelos Estatísticos Multivariados"
