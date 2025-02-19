@@ -8,51 +8,52 @@ navbar:
       href: index.html
     - text: "Topics"
       href: Topics.html
-    - text: "Activies"
+    - text: "Certificates"
       href: Activies.html
     - text: "Curriculum"
       href: Curriculum.html
-    - text: "Inventary"
-      menu:
-        - text: "3º Year"
-        - text: "Planejamentos de Experimentos I"
-          href: https://github.com/brendhalima/planej_exp.git
-        - text: "Processos Estocásticos Aplicados"
-          href: https://github.com/brendhalima/proc_estocastic.git
-        - text: "Análise de Dados Categóricos"
-          href: https://github.com/brendhalima/categoric_data.git
-        - text: "Controle de Processos Industriais"
-          href: https://github.com/brendhalima/indust_process.git
-        - text: "Estatística Computacional II"
-          href: https://github.com/brendhalima/comp_stat_ii.git
-        - text: "Modelos Lineares Generalizados"
-          href: https://github.com/brendhalima/glm.git
-        - text: "---------"
-        - text: "4º Year"
-        - text: "Análise de Sobrevivência"
-          href: page-d.html
-        - text: "Modelos Estatísticos Multivariados"
-          href: page-c.html
-        - text: "Métodos de Pesquisa"
-          href: page-c.html
-        - text: "Análise de Dados Longitudinais"
-          href: page-c.html
-        - text: "Análise de Séries Temporais"
-          href: page-c.html
-        - text: "Extensão de Modelos de Regressão"
-          href: page-c.html
-        - text: "Lab A (Análise de Componentes Principais e Dados Categóricos)"
-          href: page-c.html
-        - text: "---------"
-        - text: "5º Year"
-        - text: "Lab B (Análise de Componentes Principais e Dados Categóricos)"
-          href: page-c.html7        
-        - text: "Optativas"
-          href: page-d.html
-        - text: "Data Science"
-          href: page-d.html
+    # - text: "Inventary"
+    #   menu:
+    #     - text: "3º Year"
+    #     - text: "Planejamentos de Experimentos I"
+    #       href: https://github.com/brendhalima/planej_exp.git
+    #     - text: "Processos Estocásticos Aplicados"
+    #       href: https://github.com/brendhalima/proc_estocastic.git
+    #     - text: "Análise de Dados Categóricos"
+    #       href: https://github.com/brendhalima/categoric_data.git
+    #     - text: "Controle de Processos Industriais"
+    #       href: https://github.com/brendhalima/indust_process.git
+    #     - text: "Estatística Computacional II"
+    #       href: https://github.com/brendhalima/comp_stat_ii.git
+    #     - text: "Modelos Lineares Generalizados"
+    #       href: https://github.com/brendhalima/glm.git
+    #     - text: "---------"
+    #     - text: "4º Year"
+    #     - text: "Análise de Sobrevivência"
+    #       href: page-d.html
+    #     - text: "Modelos Estatísticos Multivariados"
+    #       href: page-c.html
+    #     - text: "Métodos de Pesquisa"
+    #       href: page-c.html
+    #     - text: "Análise de Dados Longitudinais"
+    #       href: page-c.html
+    #     - text: "Análise de Séries Temporais"
+    #       href: page-c.html
+    #     - text: "Extensão de Modelos de Regressão"
+    #       href: page-c.html
+    #     - text: "Lab A (Análise de Componentes Principais e Dados Categóricos)"
+    #       href: page-c.html
+    #     - text: "---------"
+    #     - text: "5º Year"
+    #     - text: "Lab B (Análise de Componentes Principais e Dados Categóricos)"
+    #       href: page-c.html7        
+    #     - text: "Optativas"
+    #       href: page-d.html
+    #     - text: "Data Science"
+    #       href: page-d.html
   right:
-    - icon: glyphicon-paperclip
+    - text: "About me"
+      icon: glyphicon-paperclip
       href: about.html
 output:
   html_document:

@@ -13,7 +13,7 @@
 
 <title>Topics</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
@@ -29,14 +29,14 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -57,6 +57,7 @@ if (window.hljs) {
   }
 }
 </script>
+
 
 
 
@@ -86,6 +87,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -143,11 +147,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -176,8 +184,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -185,16 +193,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -311,7 +312,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -331,72 +332,10 @@ div.tocify {
   <a href="Topics.html">Topics</a>
 </li>
 <li>
-  <a href="Activies.html">Activies</a>
+  <a href="Activies.html">Certificates</a>
 </li>
 <li>
   <a href="Curriculum.html">Curriculum</a>
-</li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Inventary
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li class="dropdown-header">3º Year</li>
-    <li>
-      <a href="https://github.com/brendhalima/planej_exp.git">Planejamentos de Experimentos I</a>
-    </li>
-    <li>
-      <a href="https://github.com/brendhalima/proc_estocastic.git">Processos Estocásticos Aplicados</a>
-    </li>
-    <li>
-      <a href="https://github.com/brendhalima/categoric_data.git">Análise de Dados Categóricos</a>
-    </li>
-    <li>
-      <a href="https://github.com/brendhalima/indust_process.git">Controle de Processos Industriais</a>
-    </li>
-    <li>
-      <a href="https://github.com/brendhalima/comp_stat_ii.git">Estatística Computacional II</a>
-    </li>
-    <li>
-      <a href="https://github.com/brendhalima/glm.git">Modelos Lineares Generalizados</a>
-    </li>
-    <li class="divider"></li>
-    <li class="dropdown-header">4º Year</li>
-    <li>
-      <a href="page-d.html">Análise de Sobrevivência</a>
-    </li>
-    <li>
-      <a href="page-c.html">Modelos Estatísticos Multivariados</a>
-    </li>
-    <li>
-      <a href="page-c.html">Métodos de Pesquisa</a>
-    </li>
-    <li>
-      <a href="page-c.html">Análise de Dados Longitudinais</a>
-    </li>
-    <li>
-      <a href="page-c.html">Análise de Séries Temporais</a>
-    </li>
-    <li>
-      <a href="page-c.html">Extensão de Modelos de Regressão</a>
-    </li>
-    <li>
-      <a href="page-c.html">Lab A (Análise de Componentes Principais e Dados Categóricos)</a>
-    </li>
-    <li class="divider"></li>
-    <li class="dropdown-header">5º Year</li>
-    <li>
-      <a href="page-c.html7">Lab B (Análise de Componentes Principais e Dados Categóricos)</a>
-    </li>
-    <li>
-      <a href="page-d.html">Optativas</a>
-    </li>
-    <li>
-      <a href="page-d.html">Data Science</a>
-    </li>
-  </ul>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -404,6 +343,7 @@ div.tocify {
   <a href="about.html">
     <span class="glyphicon glyphicon-paperclip"></span>
      
+    About me
   </a>
 </li>
       </ul>
@@ -420,9 +360,12 @@ div.tocify {
 </div>
 
 
-<div id="graduação" class="section level1">
-<h1>Graduação</h1>
-<p>Estatística - Universidade Federal do Paraná</p>
+<div id="graduação-estatística" class="section level1">
+<h1>Graduação Estatística</h1>
+<ul>
+<li>Universidade Federal do Paraná</li>
+</ul>
+<p>Fevereiro/14 - Dezembro/21</p>
 <div id="º-ano" class="section level2">
 <h2>1º Ano</h2>
 <ul>
@@ -472,19 +415,24 @@ div.tocify {
 <li>Análise de Dados Longitudinais</li>
 <li>Análise de Séries Temporais</li>
 <li>Extensão de Modelos de Regressão</li>
-<li>Laboratório A (Análise de Componentes Principais e Dados Categóricos)</li>
+<li>Laboratório A (Análise de Componentes Principais e Dados
+Categóricos)</li>
 </ul>
 </div>
 <div id="º-ano-4" class="section level2">
 <h2>5º Ano</h2>
 <ul>
-<li>Laboratório B (Análise de Componentes Principais e Dados Categóricos)</li>
+<li>Laboratório B (Análise de Componentes Principais e Dados
+Categóricos)</li>
 </ul>
 </div>
 </div>
 <div id="curso-data-science" class="section level1">
 <h1>Curso Data Science</h1>
-<p>Outubro/20 a Março/21</p>
+<ul>
+<li>Harve Escola de Inovação</li>
+</ul>
+<p>Outubro/20 - Março/21</p>
 <ul>
 <li>Fundamento de dados</li>
 <li>KPIs e Business Questions</li>
@@ -501,8 +449,70 @@ div.tocify {
 <li>IA e Machine Learning</li>
 </ul>
 </div>
+<div id="mba-data-science-and-analytics" class="section level1">
+<h1>MBA Data Science and Analytics</h1>
+<ul>
+<li>USP/Esalq</li>
+</ul>
+<p>Maio/22 - Janeiro/24</p>
+<div id="módulo---data-science-e-big-data-no-ambiente-de-negócios"
+class="section level2">
+<h2>MÓDULO - DATA SCIENCE E BIG DATA NO AMBIENTE DE NEGÓCIOS</h2>
+<ul>
+<li>Big Data e Data Mining</li>
+<li>Metodologias Ágeis</li>
+<li>Tecnologia da Informação (TI) e Inovação Tecnológica</li>
+<li>Introdução ao Java Script</li>
+<li>Engenharia de Dados</li>
+<li>Business Intelligence e Data Visualization</li>
+<li>Análise da Conjuntura Econômica em Cenários de Tecnologias
+Disruptivas</li>
+<li>Analytics e Gestão de Riscos</li>
+<li>Cloud Computing</li>
+<li>Legislação no Ambiente Digital</li>
+<li>Tópicos Especiais em Tecnologia de Negócios</li>
+</ul>
+</div>
+<div
+id="módulo---exploratory-analytics-predictive-analytics-machine-learning"
+class="section level2">
+<h2>MÓDULO - EXPLORATORY ANALYTICS, PREDICTIVE ANALYTICS &amp; MACHINE
+LEARNING</h2>
+<ul>
+<li>Estruturas de Bancos de Dados, Tipos de Variáveis e Escalas de
+Mensuração</li>
+<li>Introdução ao Machine Learning</li>
+<li>Unsupervised Machine Learning - Clustering</li>
+<li>Unsupervised Machine Learning - Análise Fatorial e PCA</li>
+<li>Unsupervised Machine Learning - Análise de Correspondência Simples e
+Múltipla</li>
+<li>Supervised Machine Learning - Análise de Regressão Simples e
+Múltipla</li>
+<li>Supervised Machine Learning - Modelos Logísticos Binários e
+Multinomiais</li>
+<li>Supervised Machine Learning - Modelos para Dados de Contagem</li>
+<li>Supervised Machine Learning - Modelagem Multinível</li>
+<li>Séries Temporais</li>
+</ul>
+</div>
+<div id="módulo---tendências-em-data-science-e-analytics"
+class="section level2">
+<h2>MÓDULO - TENDÊNCIAS EM DATA SCIENCE E ANALYTICS</h2>
+<ul>
+<li>Data Wrangling</li>
+<li>Análise Espacial</li>
+<li>Outros Modelos de Machine Learning</li>
+<li>Conceitos básicos para Introdução ao Deep Learning</li>
+<li>Deep Learning</li>
+<li>Coleta de Dados: Crawlers e Web Scraping</li>
+<li>Text Mining e Sentiment Analysis</li>
+<li>Pesquisa Operacional e Modelos de Otimização e Simulação</li>
+<li>Gestão da Mudança na Era Digital (Change Management)</li>
+</ul>
+</div>
+</div>
 
-<p>Copyright &copy; 2022, Brendha Lima. All rights reserved. </p>
+<p> </p>
 
 
 </div>

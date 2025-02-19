@@ -3,10 +3,9 @@ title: "Contacts"
 ---
 
 
-- Paraná, Brazil
-- [Facebook](https://www.facebook.com/in/brendha.lima)
+- Paraná/São Paulo, Brazil
 - [Gmail](brendharlima@gmail.com)
 - [GitHub](https://www.github.com/brendhalima)
-- [Instagram](https://www.instagram.com/in/br_ndh_)
 - [LinkedIn](https://www.linkedin.com/in/brendha-lima/)
-
+- [Instagram](https://www.instagram.com/in/br_ndh_)
+<!-- - [Facebook](https://www.facebook.com/in/brendha.lima) -->
