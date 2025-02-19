@@ -3,6 +3,7 @@ title: "Brendha Lima"
 output: html_document
 ---
 
+```{=html}
 <style type="text/css">
 .title {
   display: none;
@@ -13,35 +14,40 @@ output: html_document
 }
 
 </style>
-
+```
 <div class="row" style="padding-top: 30px;">
-<div class="col-sm-6">
 
+::: col-sm-6
 # **Hello, I'm Brendha!**
 
-I'm a statistician graduated from the Federal University of Paraná [(UFPR)](<http://www.ufpr.br/portalufpr/>), Brazil. I love spending time looking at and analyzing data. My passion for learning and my curiosity led me to discover that through data analysis it is possible to see patterns that we never imagined could exist. This is a useful way to improve processes, solve problems and, consequently, help people.
+Data Engineer with a Bachelor’s degree in Statistics from the Federal University of Paraná [(UFPR)](http://www.ufpr.br/portalufpr/) and an MBA in Data Science and Analytics from [USP/ESALQ](https://mbauspesalq.com/sobre). I have hands-on experience in developing interactive dashboards and automation workflows using R and Shiny, enhancing efficiency in data analysis. Additionally, I implement unit testing to ensure the reliability of data solutions and manage data processing and storage on AWS S3, optimizing data workflows for scalability and performance.
 
-I'm interested in programming, more specifically in R and Python languages that can help me see and understand the world with the help of statistical techniques and other subjects such as artificial intelligence and data science.
+Proficient in Python, I leverage its ecosystem to develop ETL pipelines, automate data workflows, and perform advanced data analysis. My expertise includes working with libraries such as Pandas, NumPy and PySpark.
 
-Check out my projects on this site or on my [github](<http://github.com/brendhalima>). You can contact me at brendharlima@gmail.com or other way in about.
+My approach blends statistical rigor with a strategic mindset, allowing me to transform complex datasets into actionable insights. I am passionate about building scalable, efficient, and data-driven solutions that empower decision-making.
 
-## Timeline
+Currently, I work at Argus Media, specializing in dashboard development, automation, visualization and data processing for price generation and commodity benchmarks.
 
-- 2014:2021 - Graduated in Statistician from the Federal University of Paraná (UFPR)
+## Academic Background
 
-- 2020:2021 - Certified in Data Science from Harve School of Innovation
+-   2022-2024 - MBA in Data Science and Analytics from the USP/ESALQ
+
+-   2014-2021 - Bachelor's Degree in Statistics from the Federal University of Paraná (UFPR)
+
+-   2020-2021 - Certified in Data Science from Harve School of Innovation
+
+
+:::
+
+<div class="col-sm-6">
+
+![](images/brendha.jpeg)
 
 ## Hobbies & Interests
 
-- Data Manipulation and Visualization
-- Business
-- Music
-- Cycling
-- Puzzle & Sudoku
-
-
-</div>
-<div class="col-sm-6">
-
-
-![](images/brendha.png)
+-   Music
+-   Cycling
+-   Puzzle & Sudoku
+-   Data Manipulation and Visualization
+-   Business
+-   Artificial Intelligence

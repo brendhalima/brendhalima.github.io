@@ -11,9 +11,11 @@ output:
 ---
 
 
-# Graduação 
+# Graduação Estatística
 
-Estatística - Universidade Federal do Paraná
+ - Universidade Federal do Paraná
+ 
+Fevereiro/14 - Dezembro/21
 
 ## 1º Ano
 
@@ -68,7 +70,9 @@ Estatística - Universidade Federal do Paraná
 
 # Curso Data Science 
 
-Outubro/20 a Março/21
+ - Harve Escola de Inovação
+
+Outubro/20 - Março/21
 
 - Fundamento de dados
 - KPIs e Business Questions
@@ -84,3 +88,47 @@ Outubro/20 a Março/21
 - Big Data
 - IA e Machine Learning
 
+# MBA Data Science and Analytics
+
+ - USP/Esalq
+
+Maio/22 - Janeiro/24
+
+## MÓDULO - DATA SCIENCE E BIG DATA NO AMBIENTE DE NEGÓCIOS
+
+- Big Data e Data Mining
+- Metodologias Ágeis
+- Tecnologia da Informação (TI) e Inovação Tecnológica
+- Introdução ao Java Script
+- Engenharia de Dados
+- Business Intelligence e Data Visualization
+- Análise da Conjuntura Econômica em Cenários de Tecnologias Disruptivas
+- Analytics e Gestão de Riscos
+- Cloud Computing
+- Legislação no Ambiente Digital
+- Tópicos Especiais em Tecnologia de Negócios
+
+
+## MÓDULO - EXPLORATORY ANALYTICS, PREDICTIVE ANALYTICS & MACHINE LEARNING
+- Estruturas de Bancos de Dados, Tipos de Variáveis e Escalas de Mensuração
+- Introdução ao Machine Learning
+- Unsupervised Machine Learning - Clustering
+- Unsupervised Machine Learning - Análise Fatorial e PCA
+- Unsupervised Machine Learning - Análise de Correspondência Simples e Múltipla
+- Supervised Machine Learning - Análise de Regressão Simples e Múltipla
+- Supervised Machine Learning - Modelos Logísticos Binários e Multinomiais
+- Supervised Machine Learning - Modelos para Dados de Contagem
+- Supervised Machine Learning - Modelagem Multinível
+- Séries Temporais
+ 
+
+## MÓDULO - TENDÊNCIAS EM DATA SCIENCE E ANALYTICS
+- Data Wrangling
+- Análise Espacial
+- Outros Modelos de Machine Learning
+- Conceitos básicos para Introdução ao Deep Learning
+- Deep Learning
+- Coleta de Dados: Crawlers e Web Scraping
+- Text Mining e Sentiment Analysis
+- Pesquisa Operacional e Modelos de Otimização e Simulação
+- Gestão da Mudança na Era Digital (Change Management)
