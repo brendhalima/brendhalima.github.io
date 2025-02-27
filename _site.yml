@@ -11,7 +11,15 @@ navbar:
     - text: "Certificates"
       href: Activies.html
     - text: "Curriculum"
-      href: Curriculum.html
+      menu:
+        - text: "Image"
+          href: Curriculum.html
+        - text: "PDF"
+          href: https://drive.google.com/file/d/1X2TzOtAZ__oeTcV-Dc0KBLJvvkP0d60P/view?usp=sharing
+    - text: "Projects"
+      menu:
+        - text: "Introdução ao Python"
+          href: https://github.com/brendhalima/program_intro_py_.git    
     # - text: "Inventary"
     #   menu:
     #     - text: "3º Year"
